@@ -1,0 +1,338 @@
+
+@font-face {
+    font-family: "sans";
+    src: url(static/PlusJakartaSans-Medium.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: "sans";
+    src: url(static/PlusJakartaSans-Bold.ttf);
+    font-weight: bold;
+}
+
+
+html{
+  font-family: "sans";   
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(205, 207, 211);
+}
+#MainContainer{
+    /* width: 60%;
+    height: 100%; */
+    
+    background-color: hsl(0, 0%, 100%);
+}
+#navigation{
+    /* width: 100%;
+    height:5%; */
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding-top:10px;
+    column-gap: 300px;
+    
+}
+.navimg{
+    width: 30px;
+}
+.navbtn{
+    height: 35px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    background-color:hsl(0, 0%, 1%);
+    color: hsl(0, 0%, 100%);
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#bloksContainer{
+     width: 700px; 
+     display: flex;
+     padding: 40px;
+    justify-content: center;
+    align-items: center; 
+    gap: 15px; 
+}
+.text{
+    color: hsl(0, 4%, 58%);
+}
+/* #textcontainer{
+    display: flex;
+    flex-direction: column;
+} */
+#blok1{
+    width: 200px;
+    height: 200px;
+    background-color:hsl(252, 66%, 62%);
+    border-radius: 10px;
+}
+#blok2{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#blok3{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#graphicimg{
+    width: 60px;
+    position: relative;
+   left: 130px;
+   top: 15px;
+}
+#graphiclable{
+    color:  hsl(0, 0%, 100%);
+    position: relative;
+    top: 100px;
+    right: 50px;
+    font-weight:bold ;
+}
+.thirdBlok{
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+#photography{
+background-color: hsl(172, 46%, 57%);
+}
+#motion{
+background-color: hsl(314, 46%, 23%);
+}
+.thirdBlokImg{
+    width: 75px;
+    position: relative;
+    top: 10px;
+    left: 120px;
+}
+.thirdBloklable{
+    position: relative;
+    top: 55px;
+    right: 60px;
+    color:hsl(0, 0%, 100%) ;
+    font-weight:bold ;
+}
+.secondBlok{
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+#uiuxApp{
+    background-color: blue;
+}
+#illustrations{
+    background-color:  hsl(7, 77%, 66%);
+}
+.uiuxApp{
+    width: 50%;
+    height: 100%;
+    border-radius:10px ;
+    
+}
+#uiuxAppDiv{
+    display: flex;
+    gap: 10px;
+}
+#UiUx{
+    background-color: hsl(28, 89%, 67%);
+}
+#Apps{
+    background-color: hsl(0, 79%, 79%);
+}
+.secondBlokImg{
+    width: 35px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+.secondBloklable{
+    position: relative;
+    top: 55px;
+    right: 30px;
+    color:hsl(0, 0%, 100%) ;
+    font-weight:bold ;
+}
+#thirdContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 70px;
+
+}
+#thirdContainerImg{
+    width: 230px;
+    padding-left: 60px;
+}
+#thirdContainerTextDiv{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.thirdContainerbtn{
+    width: 130px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: hsl(7, 77%, 66%);
+    color:  hsl(0, 0%, 100%);
+    font-weight:bold ;
+
+}
+#forthContainer{
+    padding-top: 50px;
+    text-align: center;
+}
+#forthContainerlable{
+    font-weight: bold;
+}
+#forthContainerImg{
+    display: flex;
+    gap: 15px;
+    padding-top: 20px;
+}
+.forthContainerImg{
+    width: 250px;
+    border-radius: 10px;
+}
+#arrows{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 20px;
+
+}
+.iconarrow{
+    background-color: hsl(0, 0%, 1%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    width: 10px;
+border-radius: 20px;
+
+}
+#fifthContainer{
+margin-top: 20px;
+margin-left: 100px;
+    width: 600px;
+    background-color: hsl(0, 0%, 1%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+}
+#fifthContainerText{
+    width: 250px;  
+}
+#fifthContainerparagraph{
+    font-size: 13px;
+}
+#footer{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding-top:20px;
+    column-gap: 300px;
+    
+}
+
+@media only screen and (max-width: 375px) {
+
+body{
+    display: flex;
+    flex-direction: column;
+width: 375px;
+}
+#MainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+}
+#navigation{
+column-gap: 80px;
+
+}
+#bloksContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+#thirdContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#btun{
+    margin-left: 80px;
+}
+#thirdContainerTextDiv{
+   text-align: center;
+}
+#forthContainerImg{
+    display: flex;
+    flex-direction: column;
+}
+
+#fifthContainer{
+    height: 250px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: 80px;
+
+    }
+    #footer{
+    
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        padding-top:20px;
+        column-gap: 80px;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
